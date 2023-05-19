@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .search-filter-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-container {
+    width: 400px;
+  }
+  
+  .search-container input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .filter-container {
+    width: 200px;
+  }
+  
+  .filter-container select {
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .table-container {
+    margin-top: 20px;
+    padding: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  td {
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  tr:nth-child(even) td {
+    background-color: #f2f2f2;
+  }
+  
+  /* Additional Styles */
+  .container {
+    border-radius: 8px;
+  }
+  
+  .search-container input[type="text"]:focus,
+  .filter-container select:focus {
+    outline: none;
+    border-color: #999;
+  }
+  
+  .search-container input[type="text"]::placeholder,
+  .filter-container select::placeholder {
+    color: #999;
+  }
+  
+  /* Colorful Styles */
+  
+  h1 {
+    color: #FF3366; /* Pink */
+  }
+  
+  .search-container input[type="text"],
+  .filter-container select {
+    background-color: #FFFF99; /* Yellow */
+    color: #336699; /* Blue */
+  }
+  
+  th {
+    background-color: #333; /* Dark Gray */
+    color: #FFF; /* White */
+  }
+  
+  td {
+    background-color: #FFCC99; /* Light Orange */
+    color: #666666; /* Gray */
+  }
+  
+  tr:nth-child(even) td {
+    background-color: #CCFFFF; /* Light Blue */
+  }
+  
